@@ -7,7 +7,7 @@ import { Descriptions } from 'antd';
 const { MarkerWithLabel } = require("react-google-maps/lib/components/addons/MarkerWithLabel");
 
 
-Geocode.setApiKey("AIzaSyAJBCVv3ZjlorXpzfXZPXDxgTppydfzxYI"); 
+Geocode.setApiKey("AIzaSyDRC7nCCKZpuQKJ02wD0ZyOSqrExQjeknA"); 
 Geocode.enableDebug();
 
 class LocationSearchModal extends React.Component {
