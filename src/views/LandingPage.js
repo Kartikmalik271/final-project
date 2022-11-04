@@ -192,7 +192,7 @@ class LocationSearchModal extends React.Component {
 
     // const AsyncMap = compose(
     //     withProps({
-    //         googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyALVjLwOIM1gf7EzdJJVmWLKdLP-yZGTcw&v=3.exp&libraries=geometry,drawing,places",
+    //         googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyDRC7nCCKZpuQKJ02wD0ZyOSqrExQjeknA&v=3.exp&libraries=geometry,drawing,places",
     //         loadingElement: <div style={{ height: `100%` }} />,
     //         containerElement: <div style={{ height: `400px` }} />,
     //         mapElement: <div style={{ height: `100%` }} />,
@@ -267,7 +267,7 @@ class LocationSearchModal extends React.Component {
                 </Descriptions>
 
                 <AsyncMap
-                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyALVjLwOIM1gf7EzdJJVmWLKdLP-yZGTcw&libraries=places"
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRC7nCCKZpuQKJ02wD0ZyOSqrExQjeknA&libraries=places"
                     loadingElement={
                         <div style={{ height: `100%` }} />
                     }
