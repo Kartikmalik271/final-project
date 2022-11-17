@@ -7,7 +7,7 @@ import { Descriptions } from 'antd';
 const { MarkerWithLabel } = require("react-google-maps/lib/components/addons/MarkerWithLabel");
 
 
-Geocode.setApiKey("AIzaSyDsQMVLDTyVI_Lbgjm27DCUNJcjZEOgq4A");
+Geocode.setApiKey("AIzaSyB5c6xETpA8826nokGxSX7f0DmCeZMI5O8");
 Geocode.enableDebug();
 
 class LocationSearchModal extends React.Component {
@@ -192,7 +192,7 @@ class LocationSearchModal extends React.Component {
 
     // const AsyncMap = compose(
     //     withProps({
-    //         googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyDsQMVLDTyVI_Lbgjm27DCUNJcjZEOgq4A&v=3.exp&libraries=geometry,drawing,places",
+    //         googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyB5c6xETpA8826nokGxSX7f0DmCeZMI5O8&v=3.exp&libraries=geometry,drawing,places",
     //         loadingElement: <div style={{ height: `100%` }} />,
     //         containerElement: <div style={{ height: `400px` }} />,
     //         mapElement: <div style={{ height: `100%` }} />,
@@ -267,7 +267,7 @@ class LocationSearchModal extends React.Component {
                 </Descriptions>
 
                 <AsyncMap
-                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsQMVLDTyVI_Lbgjm27DCUNJcjZEOgq4A&libraries=places"
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5c6xETpA8826nokGxSX7f0DmCeZMI5O8&libraries=places"
                     loadingElement={
                         <div style={{ height: `100%` }} />
                     }
